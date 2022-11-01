@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: #F28095;
+    background-color: #f28095;
     margin: 0;
 }
 
@@ -17,7 +17,6 @@ header {
     height: 150px;
     background-color: #141a1a;
     background-image: url("images/bowl.jpg");
-    background-repeat: no-repeat;
     color: white;
 }
 
@@ -45,7 +44,7 @@ nav li {
     text-align: center;   
 }
 
-nav {
+nav a {
     display: block;
     padding: 16px;
     margin: 8px auto;
@@ -55,7 +54,7 @@ nav {
     font-weight: bold;
 }
 
-nav a:first-of-type, nav a:hover {
+nav a[href="index.html"], nav a:hover {
     background-color: #f28095;
 }
 
